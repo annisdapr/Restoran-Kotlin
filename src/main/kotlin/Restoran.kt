@@ -1,4 +1,4 @@
-import Menu.*
+import menu.*
 
 class Restoran(val nama: String) {
     val daftarMenu: List<ItemMenu> = listOf(
@@ -75,8 +75,6 @@ class Restoran(val nama: String) {
             if (existingPelanggan == null) {
                 daftarpelanggan.add(pelanggan)
             }
-//            if (existingPelanggan != null) {}
-//            else{ daftarpelanggan.add(pelanggan)}
         } else {
             println("Pesanan kosong. Terima kasih!")
         }

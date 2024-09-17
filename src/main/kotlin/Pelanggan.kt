@@ -1,4 +1,4 @@
-import Menu.*
+import menu.*
 
 data class Pelanggan(val nama: String) {
     var pesanan: MutableList<Any?> = mutableListOf()

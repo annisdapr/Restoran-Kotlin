@@ -1,4 +1,4 @@
-package Menu
+package menu
 open class ItemMenu(val nama: String, var harga: Int, open var stok: Int) {
     fun kurangStok(jumlah: Int) {
         if (stok - jumlah >= 0) {
